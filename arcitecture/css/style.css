@@ -59,21 +59,39 @@
 
   background-image: url("https://tse1.mm.bing.net/th?id=OIP.9BxottL86GeeAKjA3X5ddQHaFj&pid=Api&P=0");
   background-size: 100% 100%;
-  animation: changeImage 20s linear infinite ;
+  animation: changeImage 200s ease-in-out infinite ;
 }
 
 @keyframes changeImage {
     0%{
         background-image: url("https://tse1.mm.bing.net/th?id=OIP.9BxottL86GeeAKjA3X5ddQHaFj&pid=Api&P=0");
     }
-    25%{
-        background-image: url("https://epitome-arc.com/wp-content/uploads/2021/08/archtect.jpg");
+    10%{
+        background-image: url("https://mydecorative.com/wp-content/uploads/2021/03/interior-design-and-technology.jpg");
     }
-    50%{
+    20%{
+        background-image: url("https://interior-design.cy/wp-content/uploads/2020/04/living-room.jpg");
+    }
+    30%{
         background-image: url("https://1.bp.blogspot.com/-66GcnuUI094/UQvkaJzRTgI/AAAAAAAAAZI/hf_dT00BloQ/s1600/cloud-McBride-Char_2345408k.jpg");
     }
-    75%{
+    40%{
         background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res60/150000/150207-Riverside-Museum.jpg");
+    }
+    50%{
+        background-image: url("https://damon-albarn.com/wp-content/uploads/2021/02/interior-design-for-hospitality1.jpg");
+    }
+    60%{
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Interior-Backgrounds-HD.jpg");
+    }
+    70%{
+        background-image: url("https://wallpapercave.com/wp/wp1895305.jpg");
+    }
+    80%{
+        background-image: url("https://architecturesideas.com/wp-content/uploads/2018/02/modern-architecture-11.jpg");
+    }
+    90%{
+        background-image: url("https://media.architecturaldigest.com/photos/5949963bae5cb134b7bbd769/master/pass/brillhart-architecture-di-lido-island-02.jpg");
     }
     100%{
         background-image: url("https://tse1.mm.bing.net/th?id=OIP.9BxottL86GeeAKjA3X5ddQHaFj&pid=Api&P=0");
