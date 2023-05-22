@@ -17,6 +17,7 @@ function closeNav(){
     sideNav.style.width="0px"
 
 }
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     slidesPerGroup: 3,
@@ -41,17 +42,22 @@ var swiper = new Swiper(".mySwiper", {
 
         },
         600:{
-          slidesPerView:3,
+          slidesPerView:2,
+          slidesPerGroup: 2,
           
         },
-        768:{
-          slidesPerView:3
+        786:{
+          slidesPerView:2,
+          slidesPerGroup: 2,
         },
         900:{
-          slidesPerView:3
+          slidesPerView:3,
+          slidesPerGroup: 3,
         },
-        1400:{
-          slidesPerView:3
+        1200:{
+          slidesPerView:3,
+          slidesPerGroup: 3,
+
         }
       }
   });
